@@ -25,7 +25,7 @@ SECRET_KEY = '%1l7#v9d+0^f+@_2_@xe^q^wb0070y_z^44nsjgm3d#g_et7!&'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['krodinv.pythonanywhere.com']
 
 
 # Application definition
@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'blog',
-
+    #'myownblog',
 ]
 
 MIDDLEWARE = [
